@@ -2,11 +2,11 @@ import React from 'react';
 import './App.css';
 import { BrowserRouter as Switch, Route, Routes } from 'react-router-dom';
 
-import Account from './Account';
-import Cancel from './Cancel';
-import Prices from './Prices';
-import Register from './Register';
-import Subscribe from './Subscribe';
+import Account from './components/Account';
+import Cancel from './components/Cancel';
+import Prices from './components/Prices';
+import Register from './components/Register';
+import Subscribe from './components/Subscribe';
 
 function App(props) {
   return (
